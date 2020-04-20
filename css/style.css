@@ -107,3 +107,36 @@ header nav:nth-child(3) ul li button:hover {
 header nav:nth-child(3) ul li img {
   width: 20px;
 }
+
+/* last menu */
+
+header nav:last-child {
+  background-color: rgb(255, 221, 51);
+  height: 24px;
+}
+
+header nav:last-child p a {
+  font-family: maquette, Arial, serif;
+  display: block;
+  padding: 0 4px;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 21px;
+  color: black;
+}
+
+header nav:last-child p {
+  margin-left: 20px;
+}
+
+@media (max-width: 768px) {
+  header nav:last-child {
+    height: 50px;
+  }
+
+  header nav:last-child p {
+    margin: auto;
+  }
+}
+
+/* main */
