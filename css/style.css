@@ -63,6 +63,11 @@ header nav:nth-child(2) {
   color: rgb(255, 68, 34);
 }
 
+.gallery-item a,
+.gallery-deals a {
+  color: black;
+}
+
 header nav:last-child p a {
   font-family: maquette, Arial, serif;
   display: block;
@@ -82,6 +87,11 @@ header nav:nth-child(2) ul li a {
   font-weight: 500;
   line-height: 32px;
   color: #919191;
+}
+
+.gallery-item a:hover,
+.gallery-deals a:hover {
+  color: rgb(255, 68, 34);
 }
 
 .latest-new-header a:hover {
@@ -326,3 +336,61 @@ main {
   font-family: Avalon, Arial, sans-serif;
   font-weight: 700;
 }
+
+.gallery-item,
+.gallery-deals,
+.gallery-latest {
+  width: 100%;
+  height: 100%;
+}
+
+.gallery-item .image {
+  width: 100%;
+  height: 50%;
+  overflow: hidden;
+}
+
+.gallery-item .image img,
+.gallery-deals .image img,
+.gallery-latest .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.gallery-item .slide-description {
+  font-family: maquette, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: left;
+  margin-top: 7px;
+  padding-right: 20px;
+}
+
+.author {
+  font-family: maquette, Arial, serif;
+  padding: 0 4px;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 32px;
+  color: #919191;
+}
+
+@media (min-width: 768px) {
+  .gallery-item .slide-description {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .gallery-item .author {
+    padding: 0 4px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #919191;
+  }
+}
+
+/* funding */
