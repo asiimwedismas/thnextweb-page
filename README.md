@@ -28,3 +28,12 @@ Dismas Asiimwe
 - Github: [@asiimwedismas](https://github.com/asiimwedismas)
 - Linkedin: [@asiimwedismas](https://www.linkedin.com/in/asiimwedismas/)
 - Twitter: [@asiimwedismas](https://www.twitter.com/asiimwedismas)
+
+# Getting Started
+
+To use it locally, you need to :
+
+1. Fork the repository to your GitHub account.
+2. Choose a local folder for the cloned files.
+3. Clone the repository to your local machine.
+4. Double click on 'index.html'.
