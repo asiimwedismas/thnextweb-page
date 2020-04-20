@@ -688,3 +688,119 @@ main {
   color: #919191;
   text-decoration: line-through;
 }
+
+@media (max-width: 768px) {
+  .list-slide-description {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .gallery-item .image,
+  .gallery-deals .image {
+    width: 60px;
+    height: 70px;
+    overflow: hidden;
+  }
+
+  .gallery-latest .image {
+    width: 100%;
+    height: 100%;
+  }
+
+  .gallery-item .image img,
+  .gallery-deals .image img,
+  .gallery-latest .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .gallery-item .slide-description,
+  .gallery-deals .slide-description {
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 0;
+    padding-right: 20px;
+  }
+
+  .gallery-item .author,
+  .price {
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: left;
+    margin-top: 0;
+  }
+}
+
+/* footer styles */
+footer {
+  text-align: center;
+  color: #aaa;
+}
+
+#social {
+  background-color: #131313;
+  padding: 3em 0 2em;
+}
+
+#social li {
+  display: inline-block;
+}
+
+.social-icons {
+  margin-bottom: 1.5em;
+}
+
+.social-icons li {
+  margin: 0 8px;
+}
+
+.social-icons .social-icon-links {
+  display: block;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background: #333;
+  padding: 12px;
+  text-align: center;
+}
+
+.social-icon-links {
+  color: white;
+}
+
+#social .links li {
+  margin: 0 6px;
+  font-family: Shentox, sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 13px;
+  line-height: 24px;
+}
+
+#copy-right {
+  padding: 3em 0;
+  background: #000;
+  font-size: 13px;
+  line-height: 19.5px;
+}
+
+.red-love {
+  color: red;
+}
+
+.svg-image {
+  height: 10px;
+}
+
+.most-popular-title {
+  color: #fff;
+  font-size: 13px;
+  pointer-events: none;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+}
