@@ -192,8 +192,7 @@ main {
 }
 
 .cover-left {
-  background:
-    linear-gradient(to bottom, rgba(255, 0, 0, 0.5), rgba(0, 0, 0, 1)),
+  background: linear-gradient(to bottom, rgba(255, 0, 0, 0.5), rgba(0, 0, 0, 1)),
     url("../img/cover-left.jpg");
   margin-left: 7px;
   max-height: 450px;
@@ -203,8 +202,7 @@ main {
 }
 
 .cover-left:hover {
-  background:
-    linear-gradient(to bottom, rgba(255, 0, 0, 0.2), rgba(0, 0, 0, 1)),
+  background: linear-gradient(to bottom, rgba(255, 0, 0, 0.2), rgba(0, 0, 0, 1)),
     url("../img/cover-left.jpg");
   background-position: center center;
   background-repeat: no-repeat;
@@ -254,8 +252,7 @@ main {
 }
 
 .cover-right-top {
-  background:
-    linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
     url("../img/cover-right-top.png");
   height: 215px;
   margin-bottom: 10px;
@@ -265,8 +262,7 @@ main {
 }
 
 .cover-right-top:hover {
-  background:
-    linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)),
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)),
     url("../img/cover-right-top.png");
   background-position: center center;
   background-repeat: no-repeat;
@@ -290,8 +286,7 @@ main {
 }
 
 .cover-right-bottom {
-  background:
-    linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
     url("../img/cover-right-bottom.jpg");
   height: 220px;
   margin-top: 5px;
@@ -301,8 +296,7 @@ main {
 }
 
 .cover-right-bottom:hover {
-  background:
-    linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)),
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)),
     url("../img/cover-right-bottom.jpg");
   background-position: center center;
   background-repeat: no-repeat;
@@ -394,3 +388,143 @@ main {
 }
 
 /* funding */
+.funding-header,
+.funding {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.funding li {
+  margin-left: 10px;
+}
+
+.gallery-funding {
+  position: relative;
+}
+
+.gallery-funding-header {
+  position: relative;
+}
+
+.gallery-funding h4 {
+  font-family: Avalon, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18px;
+  padding-left: 83px;
+  padding-top: 13px;
+}
+
+.funding-title {
+  color: white;
+}
+
+.funding-price h4 {
+  color: black;
+}
+
+.pdp {
+  display: block;
+  position: absolute;
+  top: 12px;
+  left: 11px;
+  width: 60px;
+  height: 60px;
+}
+
+.funding-orange {
+  background-color: rgb(255, 68, 34);
+  height: 41px;
+}
+
+.funding-price {
+  background-color: rgb(255, 235, 231);
+  height: 57px;
+}
+
+.funding-price h5 {
+  font-family: shentox, serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  padding-left: 83px;
+  color: rgb(141, 130, 128);
+}
+
+.funding-text {
+  font-size: 15px;
+  height: 80px;
+  padding-left: 15px;
+  border-bottom: 1px solid rgb(167, 164, 162);
+  color: grey;
+}
+
+.funding-text p {
+  margin-bottom: 15px;
+}
+
+.funding-text p:hover {
+  color: black;
+}
+
+.funding-text .fa-tag,
+.funding-text .fa-briefcase {
+  color: black;
+}
+
+.funding-deals-footer {
+  padding: 10px 16px;
+  color: rgb(109, 109, 108);
+  font-size: 13px;
+}
+
+.funding-deals-footer span {
+  color: #aaa;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .hidden-fund {
+    display: none;
+  }
+
+  .funding-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .funding {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .funding li:last-child {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .funding-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .funding {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .funding li {
+    margin-left: 0;
+    margin-top: 10px;
+    font-size: 13px;
+  }
+}
