@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "Avalon";
+  src: url("font/avalon.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "shentox";
+  src: url("font/shentoxa.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "maquette";
+  src: url("font/maquette.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "maquette bold";
+  src: url("font/WorkSans-ExtraBold.ttf") format("truetype");
+}
