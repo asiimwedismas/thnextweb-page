@@ -63,3 +63,47 @@ header nav:nth-child(2) ul li a:hover {
 }
 
 /* third nav */
+
+header nav:nth-child(3) {
+  background-color: #fefefe;
+  height: 40px;
+}
+
+header nav:nth-child(3) ul li a:not(.last) {
+  font-family: shentox, serif;
+  display: block;
+  text-align: center;
+  padding: 0 4px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  color: #919191;
+}
+
+header nav:nth-child(3) ul:first-child {
+  margin-left: 20px;
+}
+
+header nav:nth-child(3) ul li a:hover {
+  color: black;
+}
+
+header nav:nth-child(3) ul li button {
+  width: 50px;
+  height: 40px;
+  padding: 0;
+  margin: 0;
+  background-color: #f8f8ff;
+  border: none;
+  border-left: 1px inset #919191;
+  opacity: 0.25;
+}
+
+header nav:nth-child(3) ul li button:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+header nav:nth-child(3) ul li img {
+  width: 20px;
+}
