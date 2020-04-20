@@ -166,6 +166,10 @@ header nav:last-child {
   height: 24px;
 }
 
+.funding-text p {
+  margin-bottom: 15px;
+}
+
 header nav:last-child p {
   margin-left: 20px;
 }
@@ -192,7 +196,8 @@ main {
 }
 
 .cover-left {
-  background: linear-gradient(to bottom, rgba(255, 0, 0, 0.5), rgba(0, 0, 0, 1)),
+  background:
+    linear-gradient(to bottom, rgba(255, 0, 0, 0.5), rgba(0, 0, 0, 1)),
     url("../img/cover-left.jpg");
   margin-left: 7px;
   max-height: 450px;
@@ -202,7 +207,8 @@ main {
 }
 
 .cover-left:hover {
-  background: linear-gradient(to bottom, rgba(255, 0, 0, 0.2), rgba(0, 0, 0, 1)),
+  background:
+    linear-gradient(to bottom, rgba(255, 0, 0, 0.2), rgba(0, 0, 0, 1)),
     url("../img/cover-left.jpg");
   background-position: center center;
   background-repeat: no-repeat;
@@ -252,7 +258,8 @@ main {
 }
 
 .cover-right-top {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
+  background:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
     url("../img/cover-right-top.png");
   height: 215px;
   margin-bottom: 10px;
@@ -262,7 +269,8 @@ main {
 }
 
 .cover-right-top:hover {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)),
+  background:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)),
     url("../img/cover-right-top.png");
   background-position: center center;
   background-repeat: no-repeat;
@@ -286,7 +294,8 @@ main {
 }
 
 .cover-right-bottom {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
+  background:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
     url("../img/cover-right-bottom.jpg");
   height: 220px;
   margin-top: 5px;
@@ -296,7 +305,8 @@ main {
 }
 
 .cover-right-bottom:hover {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)),
+  background:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)),
     url("../img/cover-right-bottom.jpg");
   background-position: center center;
   background-repeat: no-repeat;
@@ -458,10 +468,6 @@ main {
   padding-left: 15px;
   border-bottom: 1px solid rgb(167, 164, 162);
   color: grey;
-}
-
-.funding-text p {
-  margin-bottom: 15px;
 }
 
 .funding-text p:hover {
