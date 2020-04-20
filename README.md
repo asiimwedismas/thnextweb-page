@@ -4,7 +4,7 @@ This project was all about replicating the The Next Web website putting emphasis
 
 # Screenshot
 
-![Image description](https://github.com/asiimwedismas/smashing-magazine/blob/development/img/screenshot.png)
+![Image description](https://github.com/asiimwedismas/thnextweb-page/blob/feature-branch/img/screenshot.jpg)
 
 # Built with
 
@@ -13,7 +13,7 @@ This project was all about replicating the The Next Web website putting emphasis
 
 # Live Demo
 
-[Live demo](https://rawcdn.githack.com/asiimwedismas/smashing-magazine/ecf6aece4bd69d2e464360a249205c9870c44458/index.html)
+[Live demo](https://rawcdn.githack.com/asiimwedismas/thnextweb-page/9bbf6c273e2644446a4ad2ee41ad292fd5438f09/index.html)
 
 # Authors
 
