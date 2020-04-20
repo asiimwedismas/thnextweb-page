@@ -59,6 +59,10 @@ header nav:nth-child(2) {
   color: #919191;
 }
 
+.latest-new-header a {
+  color: rgb(255, 68, 34);
+}
+
 header nav:last-child p a {
   font-family: maquette, Arial, serif;
   display: block;
@@ -78,6 +82,10 @@ header nav:nth-child(2) ul li a {
   font-weight: 500;
   line-height: 32px;
   color: #919191;
+}
+
+.latest-new-header a:hover {
+  color: black;
 }
 
 header nav:nth-child(2) ul:first-child {
@@ -317,12 +325,4 @@ main {
   color: rgb(255, 68, 34);
   font-family: Avalon, Arial, sans-serif;
   font-weight: 700;
-}
-
-.latest-new-header a {
-  color: rgb(255, 68, 34);
-}
-
-.latest-new-header a:hover {
-  color: black;
 }
