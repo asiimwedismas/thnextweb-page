@@ -214,8 +214,7 @@ main {
 }
 
 .cover-left {
-  background:
-    linear-gradient(to bottom, rgba(255, 0, 0, 0.5), rgba(0, 0, 0, 1)),
+  background: linear-gradient(to bottom, rgba(255, 0, 0, 0.5), rgba(0, 0, 0, 1)),
     url("../img/cover-left.jpg");
   margin-left: 7px;
   max-height: 450px;
@@ -225,8 +224,7 @@ main {
 }
 
 .cover-left:hover {
-  background:
-    linear-gradient(to bottom, rgba(255, 0, 0, 0.2), rgba(0, 0, 0, 1)),
+  background: linear-gradient(to bottom, rgba(255, 0, 0, 0.2), rgba(0, 0, 0, 1)),
     url("../img/cover-left.jpg");
   background-position: center center;
   background-repeat: no-repeat;
@@ -276,8 +274,7 @@ main {
 }
 
 .cover-right-top {
-  background:
-    linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
     url("../img/cover-right-top.png");
   height: 215px;
   margin-bottom: 10px;
@@ -287,8 +284,7 @@ main {
 }
 
 .cover-right-top:hover {
-  background:
-    linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)),
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)),
     url("../img/cover-right-top.png");
   background-position: center center;
   background-repeat: no-repeat;
@@ -312,8 +308,7 @@ main {
 }
 
 .cover-right-bottom {
-  background:
-    linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
     url("../img/cover-right-bottom.jpg");
   height: 220px;
   margin-top: 5px;
@@ -323,8 +318,7 @@ main {
 }
 
 .cover-right-bottom:hover {
-  background:
-    linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)),
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)),
     url("../img/cover-right-bottom.jpg");
   background-position: center center;
   background-repeat: no-repeat;
@@ -567,7 +561,11 @@ main {
   position: absolute;
   top: 0;
   left: 0;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 1)
+  );
 }
 
 .description-app {
@@ -627,3 +625,66 @@ main {
 }
 
 /* Latest deals */
+.deals {
+  margin-bottom: 50px;
+}
+
+.latest-new-deals {
+  font-family: maquette, Arial, serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.gallery-deals {
+  position: relative;
+}
+
+.ribbon {
+  background: center / contain no-repeat url("../img/ribbon.png");
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 80px;
+  height: 80px;
+}
+
+.ribbon p {
+  font-family: maquette, Arial, serif;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 25px;
+  margin-left: 20px;
+  transform: rotate(45deg);
+}
+
+.gallery-deals .image {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.gallery-deals .slide-description {
+  font-family: Avalon, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: left;
+  margin-top: 7px;
+  padding-right: 20px;
+}
+
+.gallery-deals .price {
+  font-family: maquette, Arial, serif;
+  padding: 0 4px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  color: rgb(85, 85, 85);
+}
+
+.gallery-deals .price span {
+  font-size: 13px;
+  color: #919191;
+  text-decoration: line-through;
+}
