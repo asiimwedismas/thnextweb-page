@@ -34,3 +34,32 @@ header {
 }
 
 /* second nav */
+
+header nav:nth-child(2) {
+  background-color: black;
+}
+
+header nav:nth-child(2) ul li a {
+  font-family: maquette, Arial, serif;
+  display: block;
+  text-align: center;
+  padding: 0 4px;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 32px;
+  color: #919191;
+}
+
+header nav:nth-child(2) ul:first-child {
+  margin-left: 20px;
+}
+
+header nav:nth-child(2) ul:last-child {
+  margin-right: 20px;
+}
+
+header nav:nth-child(2) ul li a:hover {
+  color: white;
+}
+
+/* third nav */
