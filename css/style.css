@@ -312,3 +312,17 @@ main {
 }
 
 /* latest news */
+
+.latest-new-header {
+  color: rgb(255, 68, 34);
+  font-family: Avalon, Arial, sans-serif;
+  font-weight: 700;
+}
+
+.latest-new-header a {
+  color: rgb(255, 68, 34);
+}
+
+.latest-new-header a:hover {
+  color: black;
+}
