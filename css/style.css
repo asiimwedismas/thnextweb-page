@@ -68,6 +68,14 @@ header nav:nth-child(2) {
   color: black;
 }
 
+.list-latest-header li a {
+  font-family: "maquette", Arial, serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: rgb(91, 91, 91);
+}
+
 header nav:last-child p a {
   font-family: maquette, Arial, serif;
   display: block;
@@ -104,6 +112,10 @@ header nav:nth-child(2) ul:first-child {
 
 header nav:nth-child(2) ul:last-child {
   margin-right: 20px;
+}
+
+.list-latest-header li a:hover {
+  color: black;
 }
 
 header nav:nth-child(2) ul li a:hover {
@@ -603,3 +615,15 @@ main {
   line-height: 18px;
   color: rgb(255, 68, 34);
 }
+
+.list-latest-header li {
+  margin-top: 10px;
+}
+
+.list-latest-header li::before {
+  content: "•";
+  padding-right: 8px;
+  color: rgb(255, 68, 34);
+}
+
+/* Latest deals */
