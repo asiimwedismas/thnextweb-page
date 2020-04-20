@@ -135,6 +135,12 @@ header nav:nth-child(3) ul li a:not(.last) {
   color: #919191;
 }
 
+.header-latest-header img {
+  display: block;
+  width: 95px;
+  height: 94px;
+}
+
 header nav:nth-child(3) ul:first-child {
   margin-left: 20px;
 }
@@ -596,10 +602,4 @@ main {
   font-size: 14px;
   line-height: 18px;
   color: rgb(255, 68, 34);
-}
-
-.header-latest-header img {
-  display: block;
-  width: 95px;
-  height: 94px;
 }
