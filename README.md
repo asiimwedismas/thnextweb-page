@@ -13,7 +13,7 @@ This project was all about replicating the The Next Web website putting emphasis
 
 # Live Demo
 
-[Live demo](https://rawcdn.githack.com/asiimwedismas/thnextweb-page/9bbf6c273e2644446a4ad2ee41ad292fd5438f09/index.html)
+[Live demo](https://rawcdn.githack.com/asiimwedismas/thnextweb-page/9e6c42656bcc8d58e9dbd4dae4962abd0ebb3fc2/index.html)
 
 # Authors
 
