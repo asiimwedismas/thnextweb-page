@@ -440,8 +440,20 @@ main {
   position: relative;
 }
 
+@media (max-width: 768px) {
+  .gallery-funding {
+    height: 250px;
+  }
+}
+
 .gallery-funding-header {
   position: relative;
+}
+
+@media (max-width: 768px) {
+  .gallery-funding-header {
+    height: 100px;
+  }
 }
 
 .gallery-funding h4 {
@@ -495,6 +507,12 @@ main {
   padding-left: 15px;
   border-bottom: 1px solid rgb(167, 164, 162);
   color: grey;
+}
+
+@media (max-width: 768px) {
+  .funding-text {
+    height: 110px;
+  }
 }
 
 .funding-text p:hover {
@@ -634,6 +652,12 @@ main {
   margin-top: 10px;
 }
 
+@media (max-width: 768px) {
+  .list-latest-header li {
+    height: 30px;
+  }
+}
+
 .list-latest-header li::before {
   content: "•";
   padding-right: 8px;
@@ -697,6 +721,10 @@ main {
 }
 
 @media (max-width: 768px) {
+  .gallery-item {
+    height: 80px;
+  }
+
   .list-slide-description {
     display: flex;
     flex-direction: row;
@@ -704,8 +732,8 @@ main {
 
   .gallery-item .image,
   .gallery-deals .image {
-    width: 60px;
-    height: 70px;
+    width: 70px;
+    height: 80px;
     overflow: hidden;
   }
 
