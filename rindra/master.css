@@ -77,11 +77,11 @@
   align-items: baseline;
 }
 
-.float-right-rj {
+.float-left-rj {
   float: right;
 }
 
-.float-left-rj {
+.float-right-rj {
   float: right;
 }
 
