@@ -44,8 +44,6 @@ header nav:nth-child(3) ul li button {
   width: 16px;
 }
 
-/* second nav */
-
 header nav:nth-child(2) {
   background-color: black;
 }
@@ -122,8 +120,6 @@ header nav:nth-child(2) ul li a:hover {
   color: white;
 }
 
-/* third nav */
-
 header nav:nth-child(3) {
   background-color: #fefefe;
   height: 40px;
@@ -177,8 +173,6 @@ header nav:nth-child(3) ul li img {
   width: 20px;
 }
 
-/* last menu */
-
 header nav:last-child {
   background-color: rgb(255, 221, 51);
   height: 24px;
@@ -211,7 +205,6 @@ header nav:last-child p {
   }
 }
 
-/* main */
 main {
   padding-top: 100px;
 }
@@ -246,12 +239,12 @@ main {
 .logo-container {
   width: 95%;
   margin-left: 20px;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .logo {
-  width: 50%;
-  max-width: 200px;
+  width: 100%;
+  max-width: 500px;
   height: auto;
 }
 
@@ -360,8 +353,6 @@ main {
   }
 }
 
-/* latest news */
-
 .latest-new-header {
   color: rgb(255, 68, 34);
   font-family: Avalon, Arial, sans-serif;
@@ -424,7 +415,6 @@ main {
   }
 }
 
-/* funding */
 .funding-header,
 .funding {
   display: flex;
@@ -664,7 +654,6 @@ main {
   color: rgb(255, 68, 34);
 }
 
-/* Latest deals */
 .deals {
   margin-bottom: 50px;
 }
@@ -769,7 +758,6 @@ main {
   }
 }
 
-/* footer styles */
 footer {
   text-align: center;
   color: #aaa;
